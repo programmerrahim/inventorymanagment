@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_purchase_Id"
+        android:title="Purchase Entry" />
+
+    <item
+        android:id="@+id/menu_sales_Id"
+        android:title="Sales Entry"
+        />
+
+    <item
+        android:id="@+id/menu_vendor_Id"
+        android:title="Vendor Details"
+        />
+
+    <item
+        android:id="@+id/menu_customer_Id"
+        android:title="Customer Details"
+        />
+
+    <item
+        android:id="@+id/menu_list_Id"
+        android:title="Product List"
+        />
+
+    <item
+        android:id="@+id/menu_stock_Id"
+        android:title="Stock in Hands"
+       />
+
+    <item
+        android:id="@+id/menu_logOut_Id"
+        android:title="Log out"
+        />
+
+</menu>

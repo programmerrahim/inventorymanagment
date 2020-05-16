@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "444394668890",
+    "firebase_url": "https://myloginappdemo-3ec27.firebaseio.com",
+    "project_id": "myloginappdemo-3ec27",
+    "storage_bucket": "myloginappdemo-3ec27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444394668890:android:c680fff76180adffcce963",
+        "android_client_info": {
+          "package_name": "com.kalu.myloginappdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444394668890-smdoh6jsl7483gvgdjm9bksq9beg85hk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalu.myloginappdemo",
+            "certificate_hash": "e17f2a7f7dd7699f8a0371ca136709015cdd8215"
+          }
+        },
+        {
+          "client_id": "444394668890-g4t2gi6mcq1b8gu8otveuidad1a556j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz5igOy5rvlag4200-9QpREBX3depgiJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444394668890-g4t2gi6mcq1b8gu8otveuidad1a556j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

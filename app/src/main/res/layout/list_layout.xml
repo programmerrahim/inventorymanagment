@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/search_productName_Id"
+        android:layout_marginTop="10dp"
+        android:text="Lux"
+        android:textSize="26sp"
+        android:textColor="@color/material_6"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/search_vendorName_Id"
+        android:layout_below="@+id/search_productName_Id"
+        android:layout_marginTop="10dp"
+        android:text="Uni liver"
+        android:textSize="20sp"
+        android:textColor="@color/material_2"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/search_quantity_Id"
+        android:layout_below="@+id/search_vendorName_Id"
+        android:layout_marginTop="10dp"
+        android:text="200 pcs"
+        android:textSize="22sp"
+        android:textColor="@color/material_3"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/search_date_Id"
+        android:layout_below="@+id/search_quantity_Id"
+        android:layout_marginTop="10dp"
+        android:text="4/1/2020"
+        android:textSize="15sp"
+        android:textColor="@color/material_4"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

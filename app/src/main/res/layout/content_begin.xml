@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="3">
+
+
+        //1st line starts
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/purchaseViewId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/plus"
+                        app:civ_border_color="#708F72"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#5E7E5F"
+                        app:civ_shadow_radius="10" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/material_1" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/option_1"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/salesViewId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/sales"
+                        app:civ_border_color="#708F72"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#5E7E5F"
+                        app:civ_shadow_radius="10" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/material_2" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/option_2"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        //1st line ends
+
+        //2nd line starts
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/vendorViewId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/vendor"
+                        app:civ_border_color="#708F72"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#5E7E5F"
+                        app:civ_shadow_radius="10" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/material_3" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/option_3"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/customerViewId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/people"
+                        app:civ_border_color="#708F72"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#5E7E5F"
+                        app:civ_shadow_radius="10" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/material_4" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/option_4"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        //2nd line ends
+
+        //3rd line starts
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/productViewId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/list"
+                        app:civ_border_color="#708F72"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#5E7E5F"
+                        app:civ_shadow_radius="10" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/material_5" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/option_5"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/stockViewId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/circlebackgroundpurple"
+                        android:src="@drawable/carton"
+                        app:civ_border_color="#708F72"
+                        app:civ_border_width="4dp"
+                        app:civ_shadow="true"
+                        app:civ_shadow_color="#5E7E5F"
+                        app:civ_shadow_radius="10" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/material_6" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/option_6"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        //3rd line ends
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
